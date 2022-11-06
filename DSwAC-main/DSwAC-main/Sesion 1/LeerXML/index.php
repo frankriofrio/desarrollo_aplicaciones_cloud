@@ -10,7 +10,7 @@
         echo 'Ejemplo con PHP para mostrar datos en XML <br>';
         echo '<h1>Lista Estudiantes Desarrollo de Software en Ambientes Cloud  DSwAC-01 Octubre2022 </h1><br>';
 
-        $archivoXml = simplexml_load_file("Estudiantes.xml");
+        $archivoXml = simplexml_load_file("Estudiantes1.xml");
         print_r($archivoXml->estudiante->cedula);
        // echo('<br>'. $archivoXml->ciclo);
          

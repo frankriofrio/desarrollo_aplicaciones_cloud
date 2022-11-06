@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante> 
+        <cedula>1104061278</cedula>
+        <nombre>Francisco Riofrio</nombre>
+        <asignatura>Desarrollo de Software Dirigido por Modelos</asignatura>
+         <ciudad>Loja</ciudad>
+           <programa>Maestria de Desarrollo de Software</programa>
+             <titulo>Ingeniero en Sistemas</titulo>
+             <fecha>14-10-2022</fecha>
+        <celular>0999379446</celular>  
+    </estudiante>
+     
+</dbp>

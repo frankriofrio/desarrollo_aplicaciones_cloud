@@ -11,23 +11,22 @@
 		}
 
         //Probar estudiantes para colocar en formato tabla.
-		$arrayEstudiantes = array('Javier','Pedro','Ricardo','Ana','Edy','Cecilia','Roberth');
+		$arrayEstudiantes = array('Francisco');
 
 		print("<h1 align='center'>Listado de Estudiantes DSwAC</h1>");
 		echo('<table align="center" border=1 style="background:yellow">');
 		echo '<tr>';   
-		echo '<th>Posicion</th>';
-		echo '<th>Apellido</th>';
+		echo '<th>nombre</th>';
 		echo '</tr>'; 
 
-		if (file_exists('Estudiantes.xml')) {
-			$xml = simplexml_load_file('Estudiantes.xml');
+		if (file_exists('Estudiantes1.xml')) {
+			$xml = simplexml_load_file('Estudiantes1.xml');
 			print_r($xml);
 				
 			print("<br><br>Probando con foreach<br>");
 
 			foreach ($xml->estudiante as $key => $estud) {
-	            echo "Estudiante: ".$estud->apellido." con cedula :".$estud->cedula ."<br>";    
+	            echo "Estudiante1: ".$estud->apellido." con cedula :".$estud->cedula ."<br>";    
 	        }
 
 		} else {
